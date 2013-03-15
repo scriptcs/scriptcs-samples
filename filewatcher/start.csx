@@ -7,7 +7,7 @@ var count = 0;
   // Clean up directory
 Console.WriteLine("cleaning up directory...");
 foreach (var file in Directory.EnumerateFiles(Environment.CurrentDirectory, "*.txt"))
-File.Delete(file);
+	File.Delete(file);
 
 Console.WriteLine("watching the directory...");
 var watcher = new FileSystemWatcher(Environment.CurrentDirectory) { EnableRaisingEvents = true };
