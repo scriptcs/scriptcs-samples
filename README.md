@@ -1,6 +1,8 @@
 # scriptcs samples
 
-This repository is a collection of `scriptcs` samples.
+This repository is a collection of `scriptcs` samples. 
+
+**Note**: to use samples that use HttpListener (Web API, ServiceStack, Nancy) you need to run CMD with elevation!
 
 ## Submit your own!
 We are always looking for new, interesting samples and use cases!
