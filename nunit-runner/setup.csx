@@ -76,4 +76,3 @@ using NUnit.Core;
     }
 
         CoreExtensions.Host.InitializeService();
-        //TestExecutionContext.CurrentContext.TestPackage = new TestPackage(Assembly.GetExecutingAssembly().FullName);
