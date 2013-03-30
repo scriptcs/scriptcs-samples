@@ -1,7 +1,6 @@
 #load "models.csx"
 #load "service.csx"
 
-using System;
 using ServiceStack.WebHost.Endpoints;
 using System.Reflection;
 
