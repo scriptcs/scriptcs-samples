@@ -1,7 +1,6 @@
 # RavenDB with scriptcs
 
 ## Running the sample
-
 * Make sure scriptcs is [installed](https://github.com/scriptcs/scriptcs-samples/blob/master/README.md)
 * Install packages `scriptcs -install`
 * Run `scriptcs start.csx`

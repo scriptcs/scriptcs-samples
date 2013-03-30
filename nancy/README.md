@@ -3,7 +3,6 @@ $ scriptcs and Nancy
 Demo of the [Nancy](http://nancyfx.org) framework running on [ScriptCS](https://github.com/scriptcs/scriptcs) - Awesome stuff!
 
 ## Running the sample
-
 * Make sure scriptcs is [installed](https://github.com/scriptcs/scriptcs-samples/blob/master/README.md)
 * Install packages `scriptcs -install`
 * Run `scriptcs start.csx` (make sure you are running as admin)
