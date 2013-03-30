@@ -1,7 +1,13 @@
+$ scriptcs and Nancy
+
 Demo of the [Nancy](http://nancyfx.org) framework running on [ScriptCS](https://github.com/scriptcs/scriptcs) - Awesome stuff!
 
-## Usage
-Make sure _ScriptCS.exe_ in in your path and then type `scriptcs start.csx` and browse `http://localhost:1234/` in order to have Nancy server you a view.
+## Running the sample
+
+* Make sure scriptcs is [installed](https://github.com/scriptcs/scriptcs-samples/blob/master/README.md)
+* Install packages `scriptcs -install`
+* Run `scriptcs start.csx` (make sure you are running as admin)
+* Browse to `http://localhost:1234/` in order to have Nancy server you a view.
 
 ## Note
 Nancy relies heavily on assembly scanning to compose the framework at runtime and to "light up" featured. Due to the fact that ScriptCS compiled into a _dynamic assembly_ and because you cannot use _GetExportedTypes_ on a _dynamic assembly_, you are required to provide a bit of customization in order for Nancy to function correctly.
