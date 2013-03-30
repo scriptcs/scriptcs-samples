@@ -9,8 +9,8 @@ This repository is a collection of `scriptcs` samples.
 * Install scriptcs using `cinst scriptcs -pre -source "http://www.myget.org/F/scriptcsnightly/"`
 
 ## Installing scriptcs (dev path)
-* Clone the scriptcs repo at https://github.com/scriptcs/scriptcs in the dev branch
-* Run the scriptcs build script build.cmd.
+* Clone the scriptcs repo at https://github.com/scriptcs/scriptcs and change to the dev branch
+* Run the scriptcs build script `build.cmd`
 * Add 'src/scriptcs/src/scriptcs/bin/debug' to your path.
 
 ## Running the samples
