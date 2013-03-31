@@ -3,8 +3,6 @@
 #load "pathprovider.csx"
 #load "customroutedescriptionprovider.csx"
 
-using System;
-using System.Collections.Generic;
 using System.IO;
 using Autofac;
 using Nancy;
