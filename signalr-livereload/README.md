@@ -1,5 +1,7 @@
 # SignalR Live Reload #
 
+## Setup
+
 In *your* project that uses SignalR, add the following hub:
 
     [HubName("liveReload")]
@@ -30,9 +32,9 @@ Then, add the relevant markup to your Razor layout:
         });
     </script>
 
-## Running the Live Reloader ##
-
-1. Run `nuget install -o packages` to restore the packages listed in `packages.config`.
-2. Run `scriptcs signalr.livereload.csx`
-3. Edit `config.json` and fill in the blanks.
-4. Run `scriptcs signalr.livereload.csx` again.
+## Running the sample
+* Make sure scriptcs is [installed](https://github.com/scriptcs/scriptcs-samples/blob/master/README.md)
+* Install packages `scriptcs -install`
+* Run `scriptcs start.csx`
+* Edit `config.json` and fill in the blanks.
+* Run `scriptcs start.csx` again.

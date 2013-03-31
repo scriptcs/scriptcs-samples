@@ -10,9 +10,11 @@
 #load viewmodels.csx
 #load views.csx
 
-using System;
 using System.Windows;
 using System.Threading;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Windows.Input;
 
 public class App : Application 
 { 

@@ -1,4 +1,3 @@
-using System;
 using System.Diagnostics;
 using Raven.Client;
 using Raven.Client.Embedded;
