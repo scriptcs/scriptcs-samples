@@ -10,18 +10,18 @@
 
 Sample credentials.txt (between the xxxxx):
 
-xxxxx
-DOMAINA\asm
-DOMAINA\ani
-DOMAINA\gan
-DOMAINB\bte
+xxxxx <br />
+DOMAINA\asm <br />
+DOMAINA\ani <br />
+DOMAINA\gan <br />
+DOMAINB\bte <br />
 xxxxx
 
 Sample fullnames.txt output file (between the xxxxx):
 
-xxxxx
-DOMAINA\asm, Andrew Smith
-DOMAINA\ani, Adam Nice
-DOMAINA\gan, George Andrews
-DOMAINB\bte, Brian Tennison
+xxxxx <br />
+DOMAINA\asm, Andrew Smith <br />
+DOMAINA\ani, Adam Nice <br />
+DOMAINA\gan, George Andrews <br />
+DOMAINB\bte, Brian Tennison <br />
 xxxxx
