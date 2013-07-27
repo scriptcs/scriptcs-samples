@@ -4,8 +4,7 @@
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 
-// extract pages 1 to 3 from input.pdf into output.pdf
-ExtractPages("input.pdf", "output.pdf", 1, 3);
+ExtractPages(ScriptArgs[0], ScriptArgs[1], int.Parse(ScriptArgs[2]), int.Parse(ScriptArgs[3]));
 
 // from http://www.jamesewelch.com/2008/11/14/how-to-extract-pages-from-a-pdf-document/
 public static void ExtractPages(string inputFile, string outputFile,
