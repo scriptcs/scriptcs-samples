@@ -9,7 +9,7 @@ Demo of the [ScriptCs.Net](https://github.com/dschenkelman/scriptcs-net) script 
 1. Run `scriptcs chatServer.csx` (make sure you are running as admin)
 
 ## Running the clients
-1. Run `scriptcs chatServer.csx` (make sure you are running as admin)
+1. Run `scriptcs chatClient.csx` (make sure you are running as admin)
 2. To send messages type and press **ENTER**. You should connect with at least 2 clients to see the messages from one in the other one.
 3. When you want to quit type *:close* and press **ENTER**.
 
