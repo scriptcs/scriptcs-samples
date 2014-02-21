@@ -1,10 +1,10 @@
 // to run this sample, execute:-
-// scriptcs start.csx
+// scriptcs start.csx -- input.pdf output.pdf 1 3
 
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 
-ExtractPages(ScriptArgs[0], ScriptArgs[1], int.Parse(ScriptArgs[2]), int.Parse(ScriptArgs[3]));
+ExtractPages(Env.ScriptArgs[0], Env.ScriptArgs[1], int.Parse(Env.ScriptArgs[2]), int.Parse(Env.ScriptArgs[3]));
 
 // from http://www.jamesewelch.com/2008/11/14/how-to-extract-pages-from-a-pdf-document/
 public static void ExtractPages(string inputFile, string outputFile,
