@@ -11,7 +11,7 @@ This repository is a collection of `scriptcs` samples.
 ## Installing scriptcs (dev path)
 * Clone the scriptcs repo at https://github.com/scriptcs/scriptcs and change to the dev branch
 * Run the scriptcs build script `build.cmd`
-* Add 'src/scriptcs/src/scriptcs/bin/debug' to your path.
+* Add 'src/scriptcs/src/scriptcs/bin/Release' to your path.
 
 ## Running the samples
 * Change to the folder of the sample you want to run.
