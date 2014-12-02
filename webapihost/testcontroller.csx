@@ -1,6 +1,7 @@
-public class TestController : System.Web.Http.ApiController {
-
-	public string Get() {
-		return "Hello world!";
-	}
+public class TestController : ApiController
+{
+    public string Get()
+    {
+        return "Hello world!";
+    }
 }
