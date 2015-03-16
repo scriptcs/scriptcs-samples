@@ -1,7 +1,7 @@
 # Parsing XML (with output to file) with scriptcs
 
 ## Running the sample
-* Make sure you have ScriptCS installed.
+* Make sure scriptcs is [installed](https://github.com/scriptcs/scriptcs-samples/blob/master/README.md)
 * Make sure FileParse.csx and schema.xml files are in the same folder.
 * Run "scriptcs FileParse.csx > output.txt" in command prompt.
 * Output.txt file should appear in the same folder as the script and schema files.
