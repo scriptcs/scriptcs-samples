@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
 
-var test = XElement.Load(@"C:\Users\Public\Documents\ScriptCS\schema.xml");
-var data = (from nodes in test.Descendants()
-			select new
-			{
-				Name = nodes.Attributes("name"),
-				Ref = nodes.Attributes("ref")
-			});
+var data = (from nodes in XElement.Load("schema.xml").Descendants()
+	    select new
+	    {
+		Name = nodes.Attributes("name"),
+		Ref = nodes.Attributes("ref")
+            });
 
 var list = new List<string>();
 
