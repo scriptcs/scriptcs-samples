@@ -13,12 +13,12 @@ using Nancy.Routing;
 
 NancyBootstrapperLocator.Bootstrapper = new Bootstrapper();
 
-var adress = "http://localhost:1234/";
+var address = "http://localhost:1234/";
 
-var host = new NancyHost(new Uri(adress));
+var host = new NancyHost(new Uri(address));
 host.Start();
 
-Console.WriteLine("Nancy is running at " + adress);
+Console.WriteLine("Nancy is running at " + address);
 Console.WriteLine("Press any key to end");
 Console.ReadKey();
 
