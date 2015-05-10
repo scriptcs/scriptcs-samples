@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.w3.org" targetNamespace="http://www.w3.org" elementFormDefault="qualified">
+  <xs:element name="Test">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" ref="Id" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="id" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="UpdateCount" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="UpdateUser" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="UpdateTimestamp" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="CustomerRef" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="AccountRef" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="ExternalSystemInd" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="Version" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="VIPLevel" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="AuditAccountRef" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="QuestionReplies" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Fee" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="AI" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Attachment" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="RiskGroup" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Location" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Line" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="AuditData" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Document" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="LossHistory" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="BillingEntity" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Form" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="DataReportRequest" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ChangeInfo" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="PartyInfo" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Output" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Note" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="PendingRenewalChanges" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="BasicPolicy" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Insured" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="PolicyReinsurance" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="StatementAccountRef" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="FLDMVPendingTransactions" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
